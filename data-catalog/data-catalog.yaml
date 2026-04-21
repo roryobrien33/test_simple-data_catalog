@@ -28,6 +28,19 @@ datasets:
     inSeries: ex:abcde
     hasPolicy: plcy:open-information-policy
 
+    - identifier: ex:waElectricVehiclePopulation
+      title: Washington State Electric Vehicle Population
+      description: >
+        Counts of battery electric and plug-in hybrid vehicles
+            currently registered in Washington State
+      publisher:
+        name: Washington State Department of Licensing
+      license: 
+        title: Public Domain
+      distribution:
+        - identifier: ex:waElectricVehiclePopulationCSV
+          accessURL: https://data.wa.gov/api/views/f6w7-q2d2/rows.csv
+
 concepts:
   - prefLabel: energy
     identifier: ex:abc
